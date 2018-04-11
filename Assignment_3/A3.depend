@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1523452258 source:c:\users\user\c-workspace\a3\main.cpp
+	<iostream>
+	"Member.h"
+
+1523451898 c:\users\user\c-workspace\a3\include\member.h
+	<string>
+	<vector>
+	<iostream>
+
+1523452098 source:c:\users\user\c-workspace\a3\src\member.cpp
+	<list>
+	<iostream>
+	"Member.h"
+
