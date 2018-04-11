@@ -6,19 +6,12 @@
 #define MEMBER_H
 
 class Member{
-	int numOfFollowing;
-	int numOfFollowers;
 	std::vector<Member*> followers;
     std::vector<Member*> following;
 
 public:
 
-	Member() {
-		numOfFollowing = 0;
-		numOfFollowers = 0;
-		++counter;
-
-	}
+	Member() {++counter;}
 	~Member();
 
 	void follow(Member & m);
