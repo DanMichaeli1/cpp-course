@@ -4,9 +4,6 @@
 
 
 Member::~Member() {
-//    while(!this->followers.empty()){followers[0]->unfollow(*this);}
-//    while(!this->following.empty()){following[0]->unfollow(*this);}
-
 	for(Member* m : followers){m->unfollow(*this);}
 	for(Member* m : following){this->unfollow(*m);}
 	--counter;
